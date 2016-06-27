@@ -8,4 +8,4 @@ function flatten(array) {
 	}, []);
 }
 
-module.exports = flatten
+module.exports = flatten;
