@@ -1,0 +1,16 @@
+{
+  "name": "flatten",
+  "version": "1.0.0",
+  "description": "funtional utility that flattens an array of arbitrarily nested arrays of integers into a flat array of integers",
+  "main": "flatten.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "functional",
+    "utility",
+    "array"
+  ],
+  "author": "ellismarkf",
+  "license": "MIT"
+}
