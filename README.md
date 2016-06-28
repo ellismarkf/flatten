@@ -1,7 +1,9 @@
 flatten
 ========
 
-Just a small function that does as the description explains: flattens an arbitrarily nested array of arrays of integers. Uses a recursive strategy to handle nesting, and written in a functional style.  Assumes that arrays only contain integers, not any other primitives.
+Just a small function that does as the description explains: flattens an arbitrarily nested array of arrays of integers. Uses a recursive strategy to handle nesting, and written in a functional style.
+
+This implementation assumes that arrays only contain integers, not any other primitives.  The logic that decides whether to recursively call the function again is predicated on the presence of a `length` property, which Integers in Javascript do not have.  Passing an array containing other primitives to the *flatten* function will result in a runtime error.
 
 ## usage
 
